@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T07:11:21 IST" name="Default suite" finished-at="2025-12-05T07:11:30 IST" duration-ms="9183">
+    <groups>
+    </groups>
+    <test started-at="2025-12-05T07:11:21 IST" name="Default test" finished-at="2025-12-05T07:11:30 IST" duration-ms="9183">
+      <class name="testscript.HomeTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscript.HomeTest@a1153bc]" started-at="2025-12-05T07:11:21 IST" name="initializeBrowser" finished-at="2025-12-05T07:11:26 IST" duration-ms="4490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserIsAbletoSuccessfullyLoggedOut()[pri:0, instance:testscript.HomeTest@a1153bc]" started-at="2025-12-05T07:11:26 IST" name="verifyUserIsAbletoSuccessfullyLoggedOut" finished-at="2025-12-05T07:11:30 IST" duration-ms="4524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbletoSuccessfullyLoggedOut -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscript.HomeTest@a1153bc]" started-at="2025-12-05T07:11:30 IST" name="driverQuit" finished-at="2025-12-05T07:11:30 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbletoSuccessfullyLoggedOut status=SUCCESS method=HomeTest.verifyUserIsAbletoSuccessfullyLoggedOut()[pri:0, instance:testscript.HomeTest@a1153bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- testscript.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
